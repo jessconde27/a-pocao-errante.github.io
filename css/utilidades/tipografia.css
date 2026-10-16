@@ -1,0 +1,137 @@
+/* fonte 1 - ROBOTO */
+/* 1 xxl - */
+
+
+/* 1 xl */
+.roboto-font-1-xl {
+  font:
+    600 1.7rem/1.5 "Roboto";
+    sans-serif;
+}
+
+
+/* 1l */
+
+.roboto-font-1-l {
+  font:
+    400 1.5rem/1.5 "Roboto",
+    sans-serif;
+}
+
+.roboto-font-2-l,
+.roboto-font-2-l-b {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.roboto-font-2-l-b {
+  font-weight: 500;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+
+
+/* 1m */
+.roboto-font-1-m,
+.roboto-font-1-m-b {
+  font:
+    400 1.125rem/1.35 "Roboto",
+    sans-serif;
+}
+
+.roboto-font-1-m-b {
+  font-weight: 600;
+}
+
+.roboto-font-2-m {
+  font:
+    500 1.125rem/1.35 "Roboto",
+    sans-serif;
+}
+
+
+/* 1s */
+
+.roboto-font-1-s {
+  font:
+    400 1rem/1.12 "Roboto",
+    sans-serif;
+}
+
+/* 1xs */
+
+.roboto-font-1-xs {
+  font:
+    400 0.875rem/1.43 "Roboto",
+    sans-serif;
+}
+
+
+/* ~~~~~~~~~~~~~~ */
+
+/* 2 xxl - */
+.merriweather-font-2-xxl,
+.merriweather-font-2-xxl-up {
+  font-size: 4rem;
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  line-height: 1.125;
+}
+
+.merriweather-font-2-xxl-up {
+  text-transform: uppercase;
+}
+
+/* 2 xl */
+.merriweather-font-2-xl {
+   font-size: 1.7rem;
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+
+/* 2l */
+
+.merriweather-font-2-l,
+.merriweather-font-2-l-b
+{
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+}
+
+.merriweather-font-2-l-b {
+  font-weight: bold;
+}
+
+
+
+/* 2m */
+
+/* 2s */
+.merriweather-font-2-s {
+  font-size: 1rem;
+  line-height: 1;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+}
+
+
+/* FONTE 3 POPPINS */
+
+.poppins-font-1-s {
+  font:
+    400 1rem/1.12 "Poppins",
+    sans-serif;
+}
+
+
+
+
+
+
+

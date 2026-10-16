@@ -1,0 +1,100 @@
+.pocoes-bg {
+  background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-p5) 0%);
+}
+
+.pocoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.pocoes-imagem {
+  display: grid;
+}
+
+.pocoes-imagem img {
+  grid-area: 1/1;
+}
+
+.pocoes-imagem span {
+  grid-area: 1/1;
+  place-self: start end;
+  margin-top: 20px;
+  background: var(--cor-p8);
+  display: inline-block;
+  padding: 8px 12px 8px 8px;
+  border-radius: 4px 0 0 4px;
+}
+
+.pocoes-conteudo {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.pocoes h2,
+.pocoes p {
+  grid-column: 1/-1;
+}
+
+.pocoes h2 {
+  margin-bottom: 16px;
+}
+
+.pocoes-conteudo h2::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-v5);
+  margin-bottom: 8px;
+}
+
+.pocoes-conteudo p {
+  margin-bottom: 26px;
+}
+
+.pocoes-conteudo a {
+  place-self: end;
+}
+
+.pocoes li {
+  display: flex;
+  align-items: center;
+}
+
+.pocoes ul {
+  display: grid;
+  gap: 8px;
+}
+
+.bicicletas-conteudo img {
+  width: 24px;
+  margin-right: 8px;
+}
+
+@media (max-width: 800px) {
+  .pocoes {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .pocoes-bg {
+    background: var(--cor-p6);
+  }
+}
+
+@media (max-width: 600px) {
+  .pocoes-conteudo {
+    grid-template-columns: 1fr;
+  }
+  .pocoes ul {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 32px;
+  }
+  .pocoes a {
+    place-self: start;
+  }
+}

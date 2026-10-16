@@ -1,0 +1,104 @@
+:root {
+  /* Cores de Fundo / Pergaminho (Do mais escuro ao mais claro) */
+  --cor-p12: #1a1412; /* Marrom quase preto (Ideal para textos principais) */
+  --cor-p11: #2b221e; /* Marrom escuro (Para headers, rodapés) */
+  --cor-p10: #42352f;
+  --cor-p9: #5c4a41;
+  --cor-p8: #786257;
+  --cor-p7: #967d71;
+  --cor-p6: #b59b8e;
+  --cor-p13: #e7cdbf;
+  --cor-p5: #d4baac;
+  --cor-p4: #ead2c5;
+  --cor-p3: #f5e6dc; /* Tom de pergaminho intermediário */
+  --cor-p2: #faf0e6; /* Tom de linho / papel envelhecido claro (Fundo padrão) */
+  --cor-p1: #fffdf9; /* Quase branco / marfim (Fundo de cards) */
+  --cor-0: #ffffff;
+
+  /* Cor Primária: Verde Botânico (Para botões e elementos de destaque) */
+  --cor-v5: #1c3b2b; /* Verde profundo (Hover) */
+  --cor-v4: #28523d; /* Verde musgo escuro */
+  --cor-v3: #3b7a57; /* Verde principal (Botões, CTAs, links) */
+  --cor-v2: #5ca67d; /* Verde claro */
+  --cor-v1: #8cd4ac; /* Verde menta / brilho mágico */
+
+  /* Cor de Destaque / Alquimia (Para preços, selos e poções raras) */
+  --cor-a5: #332200;
+  --cor-a3: #a66f00;
+  --cor-a1: #ffbb00; /* Dourado mágico */
+}
+
+.cor-p13 {
+  color: var(--cor-p13);
+}
+.cor-0 {
+  color: var(--cor-0);
+}
+.cor-p12 {
+  color: var(--cor-p12);
+}
+.cor-p11 {
+  color: var(--cor-p11);
+}
+.cor-p10 {
+  color: var(--cor-p10);
+}
+.cor-p9 {
+  color: var(--cor-p3);
+}
+.cor-p8 {
+  color: var(--cor-p8);
+}
+.cor-p7 {
+  color: var(--cor-p7);
+}
+.cor-p6 {
+  color: var(--cor-p6);
+}
+.cor-p5 {
+  color: var(--cor-p5);
+}
+.cor-p4 {
+  color: var(--cor-p4);
+}
+.cor-p3 {
+  color: var(--cor-p3);
+}
+.cor-p2 {
+  color: var(--cor-p2);
+}
+.cor-p1 {
+  color: var(--cor-p1);
+}
+
+.cor-v5 {
+  color: var(--cor-v5);
+}
+
+.cor-v4 {
+  color: var(--cor-v4);
+}
+
+.cor-v3 {
+  color: var(--cor-v3);
+}
+
+.cor-v2 {
+  color: var(--cor-v2);
+}
+
+.cor-v1 {
+  color: var(--cor-v1);
+}
+
+.cor-a1 {
+  color: var(--cor-a1);
+}
+
+.cor-a3 {
+  color: var(--cor-a3);
+}
+
+.cor-a5 {
+  color: var(--cor-a5);
+}

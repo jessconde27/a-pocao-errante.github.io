@@ -1,0 +1,45 @@
+.embalagem-bg {
+  background-color: var(--cor-p6);
+  box-shadow:
+    inset 0 120px var(--cor-0),
+    inset 0 -120px var(--cor-p7);
+}
+
+.embalagem {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.embalagem-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.embalagem-conteudo {
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.embalagem h2 {
+  margin-bottom: 32px;
+}
+
+.embalagem p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .embalagem-bg {
+    box-shadow: inset 0 -60px var(--cor-p6);
+  }
+  .embalagem {
+    grid-template-columns: 1fr;
+  }
+  .embalagem-conteudo {
+    grid-row: 1;
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
+}
