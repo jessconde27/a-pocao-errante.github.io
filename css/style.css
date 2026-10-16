@@ -10,28 +10,28 @@
 @import "./utilidades/formularios.css";
 
 /* home */
-@import "./css/home/introducao.css";
-@import "./css/home/pocoes-lista.css";
-@import "./css/home/ervas.css";
-@import "./css/home/parceiros.css";
-@import "./css/home/depoimento.css";
-@import "./css/home/embalagens.css";
+@import "./home/introducao.css";
+@import "./home/pocoes-lista.css";
+@import "./home/ervas.css";
+@import "./home/parceiros.css";
+@import "./home/depoimento.css";
+@import "./home/embalagens.css";
 
 /* Termos */
-@import "./css/termos/termos.css";
+@import "./termos/termos.css";
 
 /* poções */
-@import "./css/pocoes/pocoes.css";
-@import "./css/pocoes/pocao.css";
-@import "./css/pocoes/embalagem.css";
+@import "./pocoes/pocoes.css";
+@import "./pocoes/pocao.css";
+@import "./pocoes/embalagem.css";
 
 /* Embalagens */
-@import "./css/embalagens/vantagens.css";
-@import "./css/embalagens/perguntas.css";
+@import "./embalagens/vantagens.css";
+@import "./embalagens/perguntas.css";
 
 /* Contato */
-@import "./css/contato/contato.css";
-@import "./css/contato/lojas.css";
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
 
 /* Orçamento */
-@import "./css/orcamento/orcamento.css";
+@import "./orcamento/orcamento.css";
