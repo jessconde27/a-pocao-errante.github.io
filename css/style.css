@@ -30,7 +30,7 @@
 @import "./embalagens/perguntas.css";
 
 /* Contato */
-@import "./contato/contato.css";
+@import "/css/contato/contato.css";
 @import "./contato/lojas.css";
 
 /* Orçamento */
