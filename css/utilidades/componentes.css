@@ -39,7 +39,7 @@
   width: 18px;
   height: 10px;
   margin-left: 12px;
-  background: url("/imagens/icones/seta.svg");
+  background: url("./imagens/icones/seta.svg");
 }
 
 .botao.seta:hover::after {
