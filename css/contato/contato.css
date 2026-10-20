@@ -30,7 +30,7 @@
 .contato-endereço {
   margin-bottom: 32px;
   padding-left: 28px;
-  background: url("/imagens/icones/local.svg") no-repeat 0px 2px;
+  background: url("../imagens/icones/local.svg") no-repeat 0px 2px;
 }
 
 .contato-endereço p {
@@ -49,7 +49,7 @@
 }
 
 .contato-meios a:first-child {
-  background: url("/imagens/icones/email.svg") no-repeat 0px 2px;
+  background: url("../imagens/icones/email.svg") no-repeat 0px 2px;
 }
 
 .contato-meios a:nth-child(2) {
@@ -57,7 +57,7 @@
 }
 
 .contato-meios a:nth-child(3) {
-  background: url("/imagens/icones/telefone.svg") no-repeat 0px 0px;
+  background: url("../imagens/icones/telefone.svg") no-repeat 0px 0px;
   margin-bottom: 65px;
 }
 
